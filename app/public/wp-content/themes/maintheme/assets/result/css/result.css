@@ -1,0 +1,84 @@
+
+.single.result {
+    padding: 50px;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto 0 200px;
+}
+
+.sectionResult h1 {
+    border-left: 8px solid #00da90;
+    padding-left: 40px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.resultWrap {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+    padding: 100px 100px 50px 100px;
+    border-bottom: 20px solid #6666;
+    background-color: #222;
+}
+
+.resultWrap .wrapTeam {
+    width: 100%;
+    max-width: 150px;
+    text-align: center;
+}
+
+.resultWrap .gameResult {
+    font-size: 50px;
+    letter-spacing: 30px;
+    padding-left: 30px;
+}
+
+.statsWrap {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 150px 50px 150px;
+    background-color: #222;
+}
+
+.statsWrap .statsHeading {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.statsWrap .statsList {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.statsWrap .listCaption {
+    font-size: 16px;
+    margin-top: 3px;
+}
+
+.sectionBtn.result {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.sectionBtnItem.result {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
